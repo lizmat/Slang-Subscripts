@@ -1,5 +1,5 @@
 use v6.c;
-package Slang::Subscripts:ver<0.0.1>:auth<cpan:ELIZABETH> { }
+module Slang::Subscripts:ver<0.0.1>:auth<cpan:ELIZABETH> { }
 
 sub EXPORT(|) {
     my role Subscripts {
