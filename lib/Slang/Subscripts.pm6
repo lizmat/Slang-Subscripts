@@ -1,18 +1,10 @@
 use v6.c;
-module Slang::Subscripts:ver<0.0.1>:auth<cpan:ELIZABETH> { }
+module Slang::Subscripts:ver<0.0.2>:auth<cpan:ELIZABETH> { }
 
 sub EXPORT(|) {
     my role Subscripts {
         token identifier {
-            <.ident> [ <.apostrophe> <.ident> ]* <[₀₁₂₃₄₅₆₇₈₉]>*
-        }
-
-        token name {
-            [
-            | <identifier> <morename>*
-            | <morename>+
-            ]
-            <[₀₁₂₃₄₅₆₇₈₉]>*
+            <.ident> [ [ <.apostrophe> | <[₀₁₂₃₄₅₆₇₈₉]>+ ] <.ident> ]* <[₀₁₂₃₄₅₆₇₈₉]>*
         }
     }
 
@@ -24,7 +16,7 @@ sub EXPORT(|) {
 
 =head1 NAME
 
-Slang::Subscripts - Allow subscripts at the end of identifiers
+Slang::Subscripts - Allow subscripts in identifiers, just as digits
 
 =head1 SYNOPSIS
 

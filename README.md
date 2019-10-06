@@ -1,7 +1,7 @@
 NAME
 ====
 
-Slang::Subscripts - Allow subscripts at the end of identifiers
+Slang::Subscripts - Allow subscripts in identifiers, just as digits
 
 SYNOPSIS
 ========

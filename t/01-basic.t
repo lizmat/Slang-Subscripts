@@ -2,7 +2,7 @@ use v6.c;
 use Test;
 use Slang::Subscripts;
 
-plan 5;
+plan 6;
 
 # for easier copy & pasting
 # ₀₁₂₃₄₅₆₇₈₉
@@ -21,5 +21,8 @@ is \foo₄, "foobar", 'does it work with sigilless entities';
 
 my constant bar₅ = "barbaz";
 is bar₅, "barbaz", 'does it work with constants';
+
+my $H₂SO₄ = 666;
+is $H₂SO₄, 666, 'can we have subscripts inside of identfiers';
 
 # vim: ft=perl6 expandtab sw=4
