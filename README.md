@@ -15,7 +15,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Slang::Subscripts modifies the Perl 6 grammar to make it possible to use numeric subscripts ₀₁₂₃₄₅₆₇₈₉ at the end of identifiers.
+Slang::Subscripts modifies the Raku grammar to make it possible to use numeric subscripts ₀₁₂₃₄₅₆₇₈₉ at the end of identifiers.
 
 CREDITS
 =======
@@ -30,7 +30,7 @@ Elizabeth Mattijsen <liz@wenzperl.nl>
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2019 Elizabeth Mattijsen
+Copyright 2019, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

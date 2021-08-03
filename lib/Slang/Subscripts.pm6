@@ -1,5 +1,5 @@
 use v6.c;
-module Slang::Subscripts:ver<0.0.2>:auth<cpan:ELIZABETH> { }
+module Slang::Subscripts:ver<0.0.3>:auth<cpan:ELIZABETH> { }
 
 sub EXPORT(|) {
     my role Subscripts {
@@ -30,7 +30,7 @@ Slang::Subscripts - Allow subscripts in identifiers, just as digits
 
 =head1 DESCRIPTION
 
-Slang::Subscripts modifies the Perl 6 grammar to make it possible to use
+Slang::Subscripts modifies the Raku grammar to make it possible to use
 numeric subscripts ₀₁₂₃₄₅₆₇₈₉ at the end of identifiers.
 
 =head1 CREDITS
@@ -43,7 +43,7 @@ Elizabeth Mattijsen <liz@wenzperl.nl>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2019 Elizabeth Mattijsen
+Copyright 2019, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
