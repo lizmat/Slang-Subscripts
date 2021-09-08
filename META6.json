@@ -1,5 +1,5 @@
 {
-  "auth": "cpan:ELIZABETH",
+  "auth": "zef:lizmat",
   "authors": [
     "Elizabeth Mattijsen"
   ],
@@ -12,7 +12,7 @@
   "name": "Slang::Subscripts",
   "perl": "6.c",
   "provides": {
-    "Slang::Subscripts": "lib/Slang/Subscripts.pm6"
+    "Slang::Subscripts": "lib/Slang/Subscripts.rakumod"
   },
   "resources": [
   ],
@@ -22,5 +22,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }

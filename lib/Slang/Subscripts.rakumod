@@ -1,5 +1,5 @@
-use v6.c;
-module Slang::Subscripts:ver<0.0.3>:auth<cpan:ELIZABETH> { }
+use v6.d;
+module Slang::Subscripts:ver<0.0.4>:auth<zef:lizmat> { }
 
 sub EXPORT(|) {
     my role Subscripts {
@@ -39,7 +39,7 @@ Idea shamelessly copied from L<Slang::Piersing> by Tobias Leich.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 =head1 COPYRIGHT AND LICENSE
 

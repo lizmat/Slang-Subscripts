@@ -25,7 +25,7 @@ Idea shamelessly copied from [Slang::Piersing](Slang::Piersing) by Tobias Leich.
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 COPYRIGHT AND LICENSE
 =====================

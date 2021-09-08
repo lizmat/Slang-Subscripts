@@ -2,6 +2,11 @@ Revision history for Slang-Subscripts
 
 {{$NEXT}}
 
+0.0.4  2021-09-08T13:34:01+02:00
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+
 0.0.3  2021-08-03T13:57:58+02:00
     - Replace mention of Perl 6 by Raku
     - Remove Travis workflow testing
