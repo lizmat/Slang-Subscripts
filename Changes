@@ -2,6 +2,9 @@ Revision history for Slang-Subscripts
 
 {{$NEXT}}
 
+0.0.5  2021-11-07T12:53:25+01:00
+    - Remove the module statement, we don't need it anymore
+
 0.0.4  2021-09-08T13:34:01+02:00
     - Change file extension to .rakumod
     - Migrate to zef ecosystem

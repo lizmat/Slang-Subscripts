@@ -1,6 +1,3 @@
-use v6.d;
-module Slang::Subscripts:ver<0.0.4>:auth<zef:lizmat> { }
-
 sub EXPORT(|) {
     my role Subscripts {
         token identifier {
@@ -9,7 +6,7 @@ sub EXPORT(|) {
     }
 
     $*LANG.define_slang: 'MAIN', $*LANG.slang_grammar('MAIN').^mixin: Subscripts;
-    {}
+    Map.new
 }
 
 =begin pod
