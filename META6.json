@@ -4,7 +4,6 @@
     "Elizabeth Mattijsen"
   ],
   "build-depends": [
-    "Slangify:ver:<0.0.1+>:auth<zef:lizmat>"
   ],
   "depends": [
   ],
@@ -22,6 +21,7 @@
     "UTILS"
   ],
   "test-depends": [
+    "Slangify:ver:<0.0.1+>:auth<zef:lizmat>"
   ],
   "version": "0.0.6"
 }
