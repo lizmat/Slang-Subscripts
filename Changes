@@ -2,6 +2,12 @@ Revision history for Slang-Subscripts
 
 {{$NEXT}}
 
+0.0.6  2023-09-22T00:07:03+02:00
+    - Use new test-file extension
+    - Add build dependency on Slangify
+    - Add sponsor link
+    - Update copyright year
+
 0.0.5  2021-11-07T12:53:25+01:00
     - Remove the module statement, we don't need it anymore
 
