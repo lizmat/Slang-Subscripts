@@ -2,6 +2,9 @@ Revision history for Slang-Subscripts
 
 {{$NEXT}}
 
+0.0.7  2023-09-22T00:27:02+02:00
+    - Fix dependency on Slangify
+
 0.0.6  2023-09-22T00:07:03+02:00
     - Use new test-file extension
     - Add build dependency on Slangify
