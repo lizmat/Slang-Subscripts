@@ -2,6 +2,10 @@ Revision history for Slang-Subscripts
 
 {{$NEXT}}
 
+0.0.8  2023-09-25T17:43:02+02:00
+    - Bump dependency on Slangify
+    - Fix test badge
+
 0.0.7  2023-09-22T00:27:02+02:00
     - Fix dependency on Slangify
 

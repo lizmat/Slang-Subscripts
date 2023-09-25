@@ -6,7 +6,7 @@
   "build-depends": [
   ],
   "depends": [
-    "Slangify:ver<0.0.1+>:auth<zef:lizmat>"
+    "Slangify:ver<0.0.3+>:auth<zef:lizmat>"
   ],
   "description": "Allow subscripts in identifiers, just as digits",
   "license": "Artistic-2.0",
@@ -23,5 +23,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.7"
+  "version": "0.0.8"
 }

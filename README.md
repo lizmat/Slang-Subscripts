@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/Slang-Subscripts/workflows/test/badge.svg)](https://github.com/lizmat/Slang-Subscripts/actions)
+
 NAME
 ====
 
