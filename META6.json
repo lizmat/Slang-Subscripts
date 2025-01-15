@@ -6,7 +6,7 @@
   "build-depends": [
   ],
   "depends": [
-    "Slangify:ver<0.0.3+>:auth<zef:lizmat>"
+    "Slangify:ver<0.0.4+>:auth<zef:lizmat>"
   ],
   "description": "Allow subscripts in identifiers, just as digits",
   "license": "Artistic-2.0",
@@ -17,8 +17,10 @@
   },
   "resources": [
   ],
-  "source-url": "https://github.com/lizmat/Slang-Subscripts",
+  "source-url": "https://github.com/lizmat/Slang-Subscripts.git",
   "tags": [
+    "SLANG",
+    "SUBSCRIPT",
     "UTILS"
   ],
   "test-depends": [

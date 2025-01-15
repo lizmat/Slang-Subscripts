@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/Slang-Subscripts/workflows/test/badge.svg)](https://github.com/lizmat/Slang-Subscripts/actions)
+[![Actions Status](https://github.com/lizmat/Slang-Subscripts/actions/workflows/linux.yml/badge.svg)](https://github.com/lizmat/Slang-Subscripts/actions) [![Actions Status](https://github.com/lizmat/Slang-Subscripts/actions/workflows/macos.yml/badge.svg)](https://github.com/lizmat/Slang-Subscripts/actions) [![Actions Status](https://github.com/lizmat/Slang-Subscripts/actions/workflows/windows.yml/badge.svg)](https://github.com/lizmat/Slang-Subscripts/actions)
 
 NAME
 ====
@@ -8,10 +8,10 @@ Slang::Subscripts - Allow subscripts in identifiers, just as digits
 SYNOPSIS
 ========
 
-```perl6
-  use Slang::Subscripts;
+```raku
+use Slang::Subscripts;
 
-  my $x₁ = 42; say $x₁;  # 42
+my $x₁ = 42; say $x₁;  # 42
 ```
 
 DESCRIPTION
@@ -36,7 +36,7 @@ If you like this module, or what I’m doing more generally, committing to a [sm
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2019, 2021, 2023 Elizabeth Mattijsen
+Copyright 2019, 2021, 2023, 2025 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
