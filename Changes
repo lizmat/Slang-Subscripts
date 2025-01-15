@@ -1,6 +1,8 @@
 Revision history for Slang-Subscripts
 
 {{$NEXT}}
+
+0.0.9  2025-01-15T12:13:55+01:00
     - Bump dependency on Slangify
     - Add CI badge for each OS
     - Add sponsor button
